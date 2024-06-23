@@ -72,9 +72,10 @@ Use o comando dotnet restore
 
 3. **Instalando Bibliotecas e Pacotes**
 
-As dependências necessárias estão definidas no arquivo MantisAutomation.csproj.
+**As dependências necessárias estão definidas no arquivo MantisAutomation.csproj.**
 
-Aqui estão os principais pacotes utilizados:
+
+**Aqui estão os principais pacotes utilizados:**
 
 NUnit: Framework de testes
 

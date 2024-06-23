@@ -45,54 +45,54 @@ Este projeto demonstra a automação do sistema de rastreamento de bugs "Mantis"
 
 ### Pré-requisitos
 
-1. **Instalar o .NET SDK**
+1. ##Instalar o .NET SDK
    - Baixe e instale o .NET SDK do site oficial.
    
 
-2. **Instalar o Google Chrome**
+2. ##Instalar o Google Chrome
    - Certifique-se de que o Google Chrome está instalado e atualizado.
 
 
-3. **Baixar o ChromeDriver**
+3. ##Baixar o ChromeDriver
    - Baixe a versão correspondente do ChromeDriver [aqui](https://sites.google.com/a/chromium.org/chromedriver/downloads).
    - Extraia o executável e adicione seu caminho ao PATH do sistema.
 
 
 ### Configuração do Projeto
 
-1. **Clonar o repositório**
+1. ##Clonar o repositório
    ```sh
    git clone https://github.com/seu-usuario/mantis-automation.git
    cd mantis-automation
 
-2. **Restaurar dependências do projeto**
+2. ##Restaurar dependências do projeto
 
 Use o comando dotnet restore
 
 
-3. **Instalando Bibliotecas e Pacotes**
+3. ##Instalando Bibliotecas e Pacotes
 
 **As dependências necessárias estão definidas no arquivo MantisAutomation.csproj.**
 
 
-**Aqui estão os principais pacotes utilizados:**
+###Aqui estão os principais pacotes utilizados:
 
-NUnit: Framework de testes
+**NUnit: Framework de testes**
 
-NUnit3TestAdapter: Adaptador para executar testes com NUnit
+**NUnit3TestAdapter: Adaptador para executar testes com NUnit**
 
-Microsoft.NET.Test.Sdk: Suporte para testes em .NET
+**Microsoft.NET.Test.Sdk: Suporte para testes em .NET**
 
-Selenium.WebDriver: Biblioteca do Selenium WebDriver
+**Selenium.WebDriver: Biblioteca do Selenium WebDriver**
 
-Selenium.WebDriver.ChromeDriver: ChromeDriver para Selenium
+**Selenium.WebDriver.ChromeDriver: ChromeDriver para Selenium**
 
-Selenium.Support: Suporte adicional para Selenium
+**Selenium.Support: Suporte adicional para Selenium**
 
-DotNetSeleniumExtras.WaitHelpers: Auxiliares para esperas explícitas no Selenium
+**DotNetSeleniumExtras.WaitHelpers: Auxiliares para esperas explícitas no Selenium**
 
 
-4. **Executando os Testes**
+4. ##Executando os Testes
 
 Para executar os testes, use o seguinte comando: 
 dotnet test
@@ -100,8 +100,8 @@ dotnet test
 Para rodar um caso específico, use o comando dotnet test com a opção --filter.
 dotnet test --filter FullyQualifiedName~Namespace.NomeDaClasse.NomeDoTeste
 
-5. **Contribuindo**
-Para contribuir com este projeto:
+5. ##Contribuindo
+**Para contribuir com este projeto:**
 
 Faça um fork do repositório.
 Crie uma branch para sua funcionalidade (git checkout -b feature/nova-funcionalidade).
@@ -110,6 +110,6 @@ Faça push para a branch (git push origin feature/nova-funcionalidade).
 Abra um Pull Request.
 
 
-Licença
+##Licença
 Este projeto está licenciado sob a Licença MIT - veja o arquivo LICENSE para mais detalhes.
 

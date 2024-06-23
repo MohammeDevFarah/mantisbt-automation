@@ -1,12 +1,13 @@
-# MantisBT Automation
+# Automação MantisBT
 
-Automated Test Suite for MantisBT using Selenium and C#
+Suite de Testes Automatizados para MantisBT usando Selenium e C#
 
-## Project Overview
+## Visão Geral do Projeto
 
-This project demonstrates the automation of the "Mantis" bug tracking system using Selenium WebDriver and NUnit. The objective is to validate critical functionalities of the platform, ensuring the quality and functionality of the system.
+Este projeto demonstra a automação do sistema de rastreamento de bugs "Mantis" usando Selenium WebDriver e NUnit. O objetivo é validar funcionalidades da plataforma, garantindo a qualidade e a funcionalidade do sistema.
 
-## Project Structure
+
+## Estrutura do Projeto
 
 /MantisAutomation
 |-- /Pages
@@ -28,71 +29,80 @@ This project demonstrates the automation of the "Mantis" bug tracking system usi
 |-- MantisAutomation.sln
 
 
-## Technologies Used
 
-- **Programming Language**: C#
-- **Test Framework**: NUnit
-- **Automation Tool**: Selenium WebDriver
-- **Dependency Manager**: NuGet
+## Tecnologias Utilizadas
+
+- **Linguagem de Programação**: C#
+- **Framework de Testes**: NUnit
+- **Ferramenta de Automação**: Selenium WebDriver
+- **Gerenciador de Dependências**: NuGet
 - **IDE**: Visual Studio Code
-- **Browser**: Google Chrome
+- **Navegador**: Google Chrome
 - **WebDriver**: ChromeDriver
 
-## Environment Setup
 
-### Prerequisites
+## Configuração do Ambiente
 
-1. **Install .NET SDK**
-   - Download and install the .NET SDK from the official website.
+### Pré-requisitos
+
+1. **Instalar o .NET SDK**
+   - Baixe e instale o .NET SDK do site oficial.
    
-2. **Install Google Chrome**
-   - Ensure that Google Chrome is installed and updated.
 
-3. **Download ChromeDriver**
-   - Download the corresponding version of ChromeDriver [here](https://sites.google.com/a/chromium.org/chromedriver/downloads).
-   - Extract the executable and add its path to your system PATH.
+2. **Instalar o Google Chrome**
+   - Certifique-se de que o Google Chrome está instalado e atualizado.
 
-### Project Configuration
 
-1. **Clone the repository**
+3. **Baixar o ChromeDriver**
+   - Baixe a versão correspondente do ChromeDriver [aqui](https://sites.google.com/a/chromium.org/chromedriver/downloads).
+   - Extraia o executável e adicione seu caminho ao PATH do sistema.
+
+
+### Configuração do Projeto
+
+1. **Clonar o repositório**
    ```sh
    git clone https://github.com/seu-usuario/mantis-automation.git
    cd mantis-automation
 
-2. **Restore project dependencies**
+2. **Restaurar dependências do projeto**
 
-dotnet restore
-
-Installing Libraries and Packages
-The required dependencies are defined in the MantisAutomation.csproj file. Here are the main packages used:
-
-NUnit: Test framework
-NUnit3TestAdapter: Adapter to run tests with NUnit
-Microsoft.NET.Test.Sdk: Support for .NET testing
-Selenium.WebDriver: Selenium WebDriver library
-Selenium.WebDriver.ChromeDriver: ChromeDriver for Selenium
-Selenium.Support: Additional support for Selenium
-DotNetSeleniumExtras.WaitHelpers: Helpers for explicit waits in Selenium
-
-To restore all dependencies, run:
-
-dotnet restore
+Use o comando dotnet restore
 
 
-Running the Tests
-To run the tests, use the following command:
+3. **Instalando Bibliotecas e Pacotes**
 
+As dependências necessárias estão definidas no arquivo MantisAutomation.csproj.
+
+Aqui estão os principais pacotes utilizados:
+
+NUnit: Framework de testes
+NUnit3TestAdapter: Adaptador para executar testes com NUnit
+Microsoft.NET.Test.Sdk: Suporte para testes em .NET
+Selenium.WebDriver: Biblioteca do Selenium WebDriver
+Selenium.WebDriver.ChromeDriver: ChromeDriver para Selenium
+Selenium.Support: Suporte adicional para Selenium
+DotNetSeleniumExtras.WaitHelpers: Auxiliares para esperas explícitas no Selenium
+
+
+4. **Executando os Testes**
+
+Para executar os testes, use o seguinte comando: 
 dotnet test
 
+Para rodar um caso específico, use o comando dotnet test com a opção --filter.
+dotnet test --filter FullyQualifiedName~Namespace.NomeDaClasse.NomeDoTeste
 
-Contributing
-To contribute to this project:
+5. **Contribuindo**
+Para contribuir com este projeto:
 
-Fork the repository.
-Create a branch for your feature (git checkout -b feature/new-feature).
-Commit your changes (git commit -m 'Add new feature').
-Push to the branch (git push origin feature/new-feature).
-Open a Pull Request.
+Faça um fork do repositório.
+Crie uma branch para sua funcionalidade (git checkout -b feature/nova-funcionalidade).
+Faça commit das suas alterações (git commit -m 'Adicionar nova funcionalidade').
+Faça push para a branch (git push origin feature/nova-funcionalidade).
+Abra um Pull Request.
 
-License
-This project is licensed under the MIT License - see the LICENSE file for details.
+
+Licença
+Este projeto está licenciado sob a Licença MIT - veja o arquivo LICENSE para mais detalhes.
+

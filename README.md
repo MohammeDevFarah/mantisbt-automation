@@ -77,11 +77,17 @@ As dependências necessárias estão definidas no arquivo MantisAutomation.cspro
 Aqui estão os principais pacotes utilizados:
 
 NUnit: Framework de testes
+
 NUnit3TestAdapter: Adaptador para executar testes com NUnit
+
 Microsoft.NET.Test.Sdk: Suporte para testes em .NET
+
 Selenium.WebDriver: Biblioteca do Selenium WebDriver
+
 Selenium.WebDriver.ChromeDriver: ChromeDriver para Selenium
+
 Selenium.Support: Suporte adicional para Selenium
+
 DotNetSeleniumExtras.WaitHelpers: Auxiliares para esperas explícitas no Selenium
 
 

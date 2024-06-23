@@ -1,0 +1,3 @@
+MantisAutomation.Tests.CriarTarefaTests.TestCriarTarefa
+MantisAutomation.Tests.ExportarTarefasTests.TestExportarEImprimirTarefas
+MantisAutomation.Tests.LoginTests.TestValidLogin
